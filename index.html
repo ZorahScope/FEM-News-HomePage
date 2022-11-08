@@ -4,7 +4,9 @@
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<!-- displays site properly based on user's device -->
-
+		<link
+			href="https://fonts.googleapis.com/icon?family=Material+Icons"
+			rel="stylesheet" />
 		<link
 			rel="icon"
 			type="image/png"
@@ -14,8 +16,18 @@
 		<title>Frontend Mentor | News homepage</title>
 	</head>
 	<body>
-		<nav>
-			<ul>
+		<header>
+			<img src="./assets/images/logo.svg" alt="News logo" class="logo" />
+            <button class="menu-button">
+                <!-- <i class="material-icons">menu</i> -->
+                <img src="./assets/images/icon-menu.svg" alt="Menu Icon" class="menu-icon">
+            </button>
+		</header>
+		<nav class="navbar">
+            <button class="close-menu-button">
+                <img src="./assets/images/icon-menu-close.svg" alt="Close menu icon" srcset="">
+            </button>
+			<ul class="nav-links">
 				<li><a href="">Home</a></li>
 				<li><a href="">New</a></li>
 				<li><a href="">Popular</a></li>
@@ -23,7 +35,6 @@
 				<li><a href="">Categories</a></li>
 			</ul>
 		</nav>
-
 		<main>
 			<article>
 				<img src="" alt="" />
